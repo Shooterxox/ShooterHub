@@ -10,30 +10,25 @@
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jxereas/UI-Libraries/main/notification_gui_library.lua", true))()
 
 local games = {
-    ["OverLook RP"] = 5063122755,
-    ["BigMan Sim"] = 8815148875,
-    ["Teleport Sim"] = 9123917180,
-    ["Rocket Rush"] = 9282309028,
+    ["OOF Run"] = 10577425443,
     ["Legends Of Speed"] = 3101667897,
-    ["Coins Hero Sim"] = 5827078246,
-    ["Speed Run sim"] = 5293755937,
-    ["Speed Simualtor"] = 4586420508,
-    ["Trade Tower"] = 5023820864,
+    ["Easy Race Clicker"] = 10320240572,
     ["Rebirth Champions X] = 8540346411,
+    ["Race Clicker] = 9285238704,
 }
 
 for k,v in next, games do 
     if game.PlaceId == v then
     	print(k)
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/" .. k))();
-	Notification.new("success", "Success! Loading script, some scripts do not work on mobile", "discord.gg/Ew5MhZSvff")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Shooterxox/ShooterHub/main/" .. k))();
+	Notification.new("success", "Success! Loading script, some scripts do not work on mobile", "discord.gg/sRu9YsX4GU")
     end
 end
 
 pcall(function()
 local http = game:GetService('HttpService') 
 if toClipboard then
-	toClipboard('https://discord.gg/Ew5MhZSvff')
+	toClipboard('sRu9YsX4GU')
 else
 end
 local req = syn and syn.request or http and http.request or http_request or fluxus and fluxus.request or getgenv().request or request
@@ -48,7 +43,7 @@ if req then
 		Body = http:JSONEncode({
 			cmd = 'INVITE_BROWSER',
 			nonce = http:GenerateGUID(false),
-			args = {code = 'Ew5MhZSvff'}
+			args = {code = 'sRu9YsX4GU'}
 		})
 	})
 end
