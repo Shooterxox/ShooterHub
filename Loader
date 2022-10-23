@@ -1,0 +1,23 @@
+if game.PlaceId == 8884334497 then 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Shooterxox/ShooterHub/Script/Mining%20Clicking%20Simulator", true))()
+elseif game.PlaceId == 258258996 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Shooterxox/ShooterHub/Script/Miners%20Haven%20Halloween", true))()
+elseif game.PlaceId == 10676523834 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Shooterxox/ShooterHub/Script/Rocket%20Racing", true))()
+elseif game.PlaceId == 7530247933 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Shooterxox/ShooterHub/Script/Strongman%20Running", true))()
+elseif game.PlaceId == 9498006165 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Shooterxox/ShooterHub/Script/Tapping%20Simulator", true))()
+elseif game.PlaceId == 3101667897 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Shooterxox/ShooterHub/Script/Legends%20Of%20Speed", true))()
+elseif game.PlaceId == 10320240572 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Shooterxox/ShooterHub/Script/Easy%20Race%20Clicker", true))()
+elseif game.PlaceId == 10577425443 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Shooterxox/ShooterHub/Script/OOF%20Run", true))()
+elseif game.PlaceId == 8540346411 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Shooterxox/ShooterHub/Script/Rebirth%20Champions%20X", true))()
+elseif game.PlaceId == 9285238704 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Shooterxox/ShooterHub/Script/Race%20Clicker", true))()
+else
+    -- uni
+end
