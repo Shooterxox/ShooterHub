@@ -18,6 +18,10 @@ elseif game.PlaceId == 8540346411 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Shooterxox/ShooterHub/Script/Rebirth%20Champions%20X", true))()
 elseif game.PlaceId == 9285238704 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Shooterxox/ShooterHub/Script/Race%20Clicker", true))()
+elseif game.PlaceId == 9941633436 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Shooterxox/ShooterHub/Script/Rank%20Simulator", true))()
+elseif game.PlaceId == 9498006165 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Shooterxox/ShooterHub/Script/Tapping%20Simulator", true))()
 else
     -- uni
 end
